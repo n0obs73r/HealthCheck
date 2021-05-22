@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="40dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/health_check"
+        android:textStyle="italic"
+        android:textSize="55sp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        >
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+        android:text="Check your health instantly!!! "
+        android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="yes"
+        android:backgroundTint="#3bb114"
+        android:text="@string/yes"
+
+        />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="no"
+        android:backgroundTint="#ff5733"
+        android:text="@string/no"
+
+        />
+
+    <Button
+        android:id="@+id/sometimes"
+        android:onClick="sometimes"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#900c3f"
+        android:text="@string/sometimes"
+
+        />
+
+
+</LinearLayout>

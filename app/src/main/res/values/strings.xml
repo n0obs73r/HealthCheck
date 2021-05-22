@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sometimes">Sometimes</string>
+    <string name="health_check">Health Check</string>
+    <string name="message_sometimes">Man get your Sh*t straight!!!</string>
+</resources>
